@@ -3,6 +3,7 @@ require('dotenv').config()
 
 // Dependencies
 const express = require('express')
+const session = require('express-session')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 const ejs = require('ejs')
